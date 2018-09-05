@@ -33,5 +33,9 @@
 }
 
 #atlassian {
-  max-width: 75px;
+  max-width: 60px;
+  @media only screen and (min-width: $cut) {
+    flex-wrap: nowrap;
+    max-width: 75px;
+  }
 }
